@@ -4,21 +4,19 @@
 
 #include <stdio.h>
 
-
-
 /**
- *
- *  * main - entry point
- *
- *   *
- *
- *    * Description: Prints a number and whether it is positive, negative or zero.
- *
- *     *
- *
- *      * Return: 0
- *
- *       */
+*
+* main - entry point
+*
+*   *
+*
+*    * Description: Prints a number and whether it is positive, negative or zero.
+*
+*     *
+*
+*      * Return: 0
+*
+*/
 
 int main(void)
 
