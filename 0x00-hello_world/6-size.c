@@ -1,13 +1,10 @@
 #include <stdio.h>
 
-/*
- * main: Entry point
- *
- * prints size
- *
- * Return: Always 0 (Success)
- *
- */
+/**
+* main: Entry point
+* prints on screen
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 

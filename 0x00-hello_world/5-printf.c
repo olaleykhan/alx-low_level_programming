@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/* main.c prints in format on screen */
+/**
+*  main - My entry point for my program
+* Return: returns 0
+*/
 int main(void)
 
 {
