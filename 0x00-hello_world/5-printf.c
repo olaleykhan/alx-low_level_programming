@@ -1,13 +1,10 @@
-include <stdio.h>
-/**
+include < stdio.h >
+/*
  *
- *  * main - represent Entry Point to the program
+ * main - represent Entry Point to the program
+ * Return: 0 to stop the program
  *
- *   *
- *
- *    * Return: 0 to stop the program
- *
- *     */
+ */
 
 int main(void)
 
