@@ -1,35 +1,14 @@
 #include <stdio.h>
-
-/**
-* main - inout 
-* Description - all
-* Return 
-*/
-int main(void)
-
-{
-
-int i;
-int j;
-for (i = 0; i < 10; ++i)
-{
-for (j = i + 1; j < 10; ++j)
-
-												{
-
-										putchar('0' + i);
-										putchar('0' + j);
-if (i != 8 || j != 9)
-
-{
-putchar(',');
-
-putchar(' ');
-}
-
-}
-}
-
-putchar('\n');
-return (0);
+/** * main - Prints combination of numbers * * Return: Always (Success) 
+  */
+int main(void) { int c, i; for (c = '0'; c <= '9'; c++) { for (i = '0'; 
+		i <= '9'; i++) {
+			if (c < i) { putchar(c); putchar(i); if (c != 
+				'8' || (c == '8' && i != '9')) {
+					putchar(','); putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n'); return (0);
 }
