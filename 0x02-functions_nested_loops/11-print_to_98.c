@@ -2,14 +2,22 @@
 #include <stdio.h>
 
 /**
- * add -prints add two numbers
- * @i: print int i
- * @k: print int k
+ * print_to_98 - print all natural numbers from n to 98.
+ * @n: the number to start counting from n to 98
  * Return: Always 0.
  */
-
-int add(int i, int k)
-
+void print_to_98(int n)
 {
-return (i + k);
+while (n < 98)
+{
+printf("%i, ", n);
+n++;
+}
+while (n > 98)
+{
+printf("%i, ", n);
+n--;
+}
+printf("98");
+putchar('\n');
 }
